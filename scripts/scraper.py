@@ -69,7 +69,7 @@ def main():
         json.dump(vod_output, f, ensure_ascii=False, indent=2)
     print(f"✅ 点播生成完成！共 {len(final_vod)} 个站点")
 
-    # ====================== 直播 M3U（大幅增加频道） ======================
+    # ====================== 直播 M3U（增加到约20个） ======================
     m3u_content = "#EXTM3U\n#EXT-X-VERSION:3\n\n"
 
     channels = [
@@ -81,8 +81,16 @@ def main():
         ("MILF 直播", "https://cdn.adultiptv.net/milf.m3u8"),
         ("Lesbian 直播", "https://cdn.adultiptv.net/lesbian.m3u8"),
         ("Teen 直播", "https://cdn.adultiptv.net/teen.m3u8"),
+        ("Fetish 直播", "https://cdn.adultiptv.net/fetish.m3u8"),
+        ("Pornstar 直播", "https://cdn.adultiptv.net/pornstar.m3u8"),
+        ("Gay 直播", "https://live.adultiptv.net/gay.m3u8"),
+        ("亚洲无码直播", "https://live.adultiptv.net/asian.m3u8"),
         ("成人直播合集", "https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u"),
         ("中国成人直播", "https://github.com/hujingguang/ChinaIPTV/raw/main/xxx.m3u8"),
+        ("XXX 全频道", "https://iptvmate.net/files/xxx.m3u"),
+        ("Adult IPTV 主列表", "https://iptvmate.net/files/adult.m3u"),
+        ("成人直播1", "http://adultiptv.net/chs.m3u"),
+        ("亚洲直播合集", "https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u"),
     ]
 
     for name, url in channels:
