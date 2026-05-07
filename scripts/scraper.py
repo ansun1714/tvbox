@@ -3,62 +3,71 @@ import json
 from datetime import datetime
 import time
 
-# 多个源自动抓取
 VOD_SOURCES = [
     "https://raw.githubusercontent.com/wwb521/live/refs/heads/main/video.json",
     "https://raw.githubusercontent.com/Nancy0308/TVbox-interface/main/tvbox-福利.json",
     "https://raw.githubusercontent.com/chinawiz/tvbox/main/adult-2.json",
-    "https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/18.json",
 ]
 
 def fetch_json(url):
     try:
-        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=12)
+        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
         r.raise_for_status()
         return r.json()
     except:
         return None
 
-def is_likely_valid(site):
-    """温和测试：只要有 api 地址就保留（减少误杀）"""
-    api = site.get("api", "")
+def test_site(site):
+    """真实测试：访问 api，看是否有有效数据"""
+    api = site.get("api")
     if not api or not isinstance(api, str) or not api.startswith("http"):
         return False
-    name = site.get("name", "").lower()
-    # 排除明显无效的
-    if "测试" in name or "备用" in name or len(name) < 2:
-        return False
-    return True
+    
+    try:
+        time.sleep(0.8)  # 避免请求太快被封
+        headers = {"User-Agent": "Mozilla/5.0"}
+        r = requests.get(api, headers=headers, timeout=8)
+        
+        if r.status_code != 200:
+            return False
+            
+        content = r.text.lower()
+        # 有以下关键词说明有数据
+        if any(k in content for k in ["class", "vod", "list", "rss", "video", "movie", "xml"]):
+            return True
+    except:
+        pass
+    return False
 
 def main():
     timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
-    all_vod = []
+    valid_sites = []
     
-    print(f"开始自动抓取 - {timestamp}")
+    print(f"开始自动抓取 + 真实测试 - {timestamp}")
     
-    for url in VOD_SOURCES:
-        print(f"正在抓取: {url}")
-        data = fetch_json(url)
+    for source_url in VOD_SOURCES:
+        print(f"抓取主配置: {source_url}")
+        data = fetch_json(source_url)
         if data and isinstance(data, dict) and "sites" in data:
-            for site in data.get("sites", []):
-                if is_likely_valid(site):
-                    # 统一添加兼容字段
+            sites = data["sites"]
+            print(f"  发现 {len(sites)} 个站点，开始测试...")
+            
+            for i, site in enumerate(sites):
+                name = site.get("name", "未知")
+                print(f"  测试 [{i+1}/{len(sites)}] {name}")
+                
+                if test_site(site):
+                    # 添加兼容字段
                     site.setdefault("searchable", 1)
                     site.setdefault("quickSearch", 1)
                     site.setdefault("filterable", 1)
                     site.setdefault("playerType", 1)
-                    all_vod.append(site)
+                    valid_sites.append(site)
+                    print(f"    ✓ 保留: {name}")
+                else:
+                    print(f"    ✗ 丢弃: {name}")
     
-    # 去重（按 name + api）
-    seen = {}
-    vod_sites = []
-    for site in all_vod:
-        key = f"{site.get('name')}-{site.get('api')}"
-        if key not in seen:
-            seen[key] = True
-            vod_sites.append(site)
-    
-    # 直播分组
+    # 直播
     live_groups = [
         {"name": "亚洲成人直播", "type": 1, "url": "https://live.adultiptv.net/asian.m3u8"},
         {"name": "成人直播合集", "type": 1, "url": "https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u"},
@@ -66,18 +75,18 @@ def main():
     ]
 
     output = {
-        "name": "亚洲性学接口（自动抓取版）",
+        "name": "亚洲性学接口（真实测试版）",
         "update_time": timestamp,
-        "vod_count": len(vod_sites),
+        "vod_count": len(valid_sites),
         "live_count": len(live_groups),
-        "sites": vod_sites,
+        "sites": valid_sites,
         "lives": live_groups
     }
     
     with open("my-private-api.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     
-    print(f"✅ 自动抓取完成！保留点播站点: {len(vod_sites)} 个")
+    print(f"✅ 测试完成！最终保留 {len(valid_sites)} 个可用点播站点")
 
 if __name__ == "__main__":
     main()
