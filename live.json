@@ -1,0 +1,22 @@
+{
+  "name": "亚洲性学直播接口",
+  "update_time": "2026-05-07 13:34:09 UTC",
+  "live_count": 3,
+  "lives": [
+    {
+      "name": "亚洲成人直播",
+      "type": 1,
+      "url": "https://live.adultiptv.net/asian.m3u8"
+    },
+    {
+      "name": "成人直播合集",
+      "type": 1,
+      "url": "https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u"
+    },
+    {
+      "name": "Live Cams",
+      "type": 1,
+      "url": "https://live.adultiptv.net/livecams.m3u8"
+    }
+  ]
+}
