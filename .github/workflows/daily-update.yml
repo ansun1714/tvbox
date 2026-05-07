@@ -2,24 +2,34 @@ name: Daily TVBox Asia Update
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *'     # 每天 UTC 0:00（北京时间早上 8:00）自动运行
+  workflow_dispatch:        # 允许手动点击运行
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: 拉取代码
+        uses: actions/checkout@v4
+      
+      - name: 设置 Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install requests
-      - run: python scripts/scraper.py
-      - run: |
+      
+      - name: 安装依赖
+        run: pip install requests
+      
+      - name: 运行抓取脚本
+        run: python scripts/scraper.py
+      
+      - name: 提交更新
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add my-private-api.json
-          git commit -m "Daily update with VOD+Live test: $(date -u)" || echo "No changes"
+          git add mytv-api.json
+          git commit -m "Daily auto update: $(date -u)" || echo "No changes"
           git push
