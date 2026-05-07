@@ -3,10 +3,18 @@ import json
 from datetime import datetime
 import time
 
+# ==================== 点播源 ====================
 VOD_SOURCES = [
     "https://raw.githubusercontent.com/wwb521/live/refs/heads/main/video.json",
     "https://raw.githubusercontent.com/Nancy0308/TVbox-interface/main/tvbox-福利.json",
     "https://raw.githubusercontent.com/chinawiz/tvbox/main/adult-2.json",
+]
+
+# ==================== 直播源 ====================
+LIVE_M3U = [
+    "https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u",
+    "https://live.adultiptv.net/asian.m3u8",
+    "https://live.adultiptv.net/livecams.m3u8",
 ]
 
 def fetch_json(url):
@@ -17,50 +25,59 @@ def fetch_json(url):
     except:
         return None
 
-def test_site(site):
-    """简单但有效的测试"""
+def test_vod_site(site):
     api = site.get("api")
     if not api or not isinstance(api, str) or not api.startswith("http"):
         return False
     try:
-        time.sleep(0.6)
+        time.sleep(0.5)
         r = requests.get(api, headers={"User-Agent": "Mozilla/5.0"}, timeout=8)
         if r.status_code == 200:
             content = r.text.lower()
-            if any(word in content for word in ["class", "vod", "list", "rss", "xml"]):
-                return True
+            return any(k in content for k in ["class", "vod", "list", "rss", "xml"])
     except:
         pass
-    return True  # 如果测试超时也保留（避免误杀太多）
+    return True  # 测试失败也保留，避免误杀
 
 def main():
     timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
-    valid_vod = []
     
-    print(f"开始自动抓取 + 测试 - {timestamp}")
-    
+    # ===================== 生成点播接口 =====================
+    vod_sites = []
     for url in VOD_SOURCES:
-        print(f"抓取: {url}")
+        print(f"抓取点播: {url}")
         data = fetch_json(url)
         if data and isinstance(data, dict) and "sites" in data:
             for site in data.get("sites", []):
-                if test_site(site):
+                if test_vod_site(site):
                     site.setdefault("searchable", 1)
                     site.setdefault("quickSearch", 1)
                     site.setdefault("filterable", 1)
                     site.setdefault("playerType", 1)
-                    valid_vod.append(site)
+                    vod_sites.append(site)
     
     # 去重
     seen = set()
-    vod_sites = []
-    for site in valid_vod:
-        key = (site.get("name"), site.get("api"))
+    final_vod = []
+    for s in vod_sites:
+        key = (s.get("name"), s.get("api"))
         if key not in seen:
             seen.add(key)
-            vod_sites.append(site)
-    
-    # 直播（加强兼容性）
+            final_vod.append(s)
+
+    vod_output = {
+        "name": "亚洲性学点播接口",
+        "update_time": timestamp,
+        "vod_count": len(final_vod),
+        "sites": final_vod
+    }
+
+    with open("my-private-api.json", "w", encoding="utf-8") as f:
+        json.dump(vod_output, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ 点播接口生成完成！共 {len(final_vod)} 个站点")
+
+    # ===================== 生成直播接口 =====================
     live_groups = [
         {
             "name": "亚洲成人直播",
@@ -79,19 +96,17 @@ def main():
         }
     ]
 
-    output = {
-        "name": "亚洲性学接口（自动抓取+直播版）",
+    live_output = {
+        "name": "亚洲性学直播接口",
         "update_time": timestamp,
-        "vod_count": len(vod_sites),
         "live_count": len(live_groups),
-        "sites": vod_sites,
         "lives": live_groups
     }
-    
-    with open("my-private-api.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-    
-    print(f"✅ 完成！保留点播 {len(vod_sites)} 个 | 直播 {len(live_groups)} 个")
+
+    with open("live.json", "w", encoding="utf-8") as f:
+        json.dump(live_output, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ 直播接口生成完成！共 {len(live_groups)} 个分组")
 
 if __name__ == "__main__":
     main()
