@@ -30,6 +30,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add mytv-api.json
+          git add my-private-api.json
           git commit -m "Daily auto update: $(date -u)" || echo "No changes"
           git push
