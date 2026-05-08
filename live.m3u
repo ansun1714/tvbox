@@ -71,16 +71,6 @@ https://cdn-main.lolokoko.tv/HUSTLER.stream/chunks.m3u8
 http://109.71.163.112:1935/live/hd.jasminchannel.stream/playlist.m3u8
 #EXTINF:-1 group-title="亚洲成人直播",Jenny For You (720p)
 https://59ec5453559f0.streamlock.net/jennyforyou/jennyforyou/playlist.m3u8
-#EXTINF:-1 group-title="亚洲成人直播",Miami TV (720p)
-https://59ec5453559f0.streamlock.net/miamitv/smil:miamitv/playlist.m3u8
-#EXTINF:-1 group-title="亚洲成人直播",Miami TV Jenny Live (720p) [Not 24/7]
-https://59ec5453559f0.streamlock.net/JennyLive/JennyLive/playlist.m3u8
-#EXTINF:-1 group-title="亚洲成人直播",Miami TV Mexico (1080p)
-https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexico/playlist.m3u8
-#EXTINF:-1 group-title="亚洲成人直播",MyCamTV Anal (720p)
-https://live.mycamtv.com/anal.m3u8
-#EXTINF:-1 group-title="亚洲成人直播",MyCamTV Arab (720p)
-http://live.mycamtv.com/arab.m3u8
 #EXTINF:-1 group-title="亚洲成人直播",Good 2
 https://live.streamingfast.net/osmflivech2.m3u8
 #EXTINF:-1 group-title="亚洲成人直播",Beautiful Life TV
@@ -121,6 +111,30 @@ https://ythls.armelin.one/channel/UC8ROUUjHzEQm-ndb69CX8Ww.m3u8
 https://ythls.armelin.one/channel/UC4LjkybVKXCDlneVXlKAbmw.m3u8
 #EXTINF:-1 group-title="亚洲成人直播",ET Mall 60
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV18.m3u8
+#EXTINF:-1 group-title="亚洲成人直播",Pet Club TV
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8
+#EXTINF:-1 group-title="亚洲成人直播",Bloomberg TV Asia
+http://210.210.155.37/dr9445/h/h03/index.m3u8
+#EXTINF:-1 group-title="亚洲成人直播",Bloomberg TV Asia Live Event
+https://bloomberg.com/media-manifest/streams/asia-event.m3u8
+#EXTINF:-1 group-title="亚洲成人直播",KIX
+http://210.210.155.37/dr9445/h/h07/index.m3u8
+#EXTINF:-1 group-title="亚洲成人直播",HOY TV
+http://media.fantv.hk/m3u8/archive/channel2.m3u8
+#EXTINF:-1 group-title="亚洲成人直播",HKSTV
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 group-title="亚洲成人直播",CCM
+http://210.210.155.37/qwr9ew/s/s31/index.m3u8
+#EXTINF:-1 group-title="亚洲成人直播",Celestial Movies
+http://210.210.155.37/dr9445/h/h14/index.m3u8
+#EXTINF:-1 group-title="亚洲成人直播",Thrill
+http://210.210.155.37/qwr9ew/s/s34/index.m3u8
+#EXTINF:-1 group-title="亚洲成人直播",tvN Movies Asia
+http://210.210.155.37/dr9445/h/h21/index.m3u8
+#EXTINF:-1 group-title="亚洲成人直播",TVB News Channel
+http://r.jdshipin.com/CkuBd
+#EXTINF:-1 group-title="亚洲成人直播",BSTV
+http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
 #EXTINF:-1 group-title="亚洲成人直播",ABN
 https://vod2.abn.co.kr/IPHONE/abn.m3u8
 #EXTINF:-1 group-title="亚洲成人直播",All the K-Pop
@@ -191,13 +205,5 @@ https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
 http://andong.webcasting.co.kr/live/mbc/playlist.m3u8
 #EXTINF:-1 group-title="亚洲成人直播",HLCG-DTV
 http://61.82.49.4:1935/live/_definst_/tv.stream/playlist.m3u8
-#EXTINF:-1 group-title="亚洲成人直播",HLCN-DTV
-https://media.kjmbc.co.kr/hls/live/stream/playlist.m3u8
-#EXTINF:-1 group-title="亚洲成人直播",HLCQ-DTV
-https://ns1.tjmbc.co.kr/live/myStream.sdp/playlist.m3u8
-#EXTINF:-1 group-title="亚洲成人直播",HLCT-DTV
-https://5ee1ec6f32118.streamlock.net/live/livetv/playlist.m3u8
-#EXTINF:-1 group-title="亚洲成人直播",HLDE-DTV
-http://203.251.91.122:1935/on-air-Backup/tv/playlist.m3u8
-#EXTINF:-1 group-title="亚洲成人直播",HLDF-DTV
-http://1.245.74.5:1935/live/tv/.m3u8
+#EXTINF:-1 group-title="亚洲成人直播",日本直播
+https://raw.githubusercontent.com/luongz/iptv-jp/main/jp.m3u
