@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-05-12 02:40:23 UTC",
-  "vod_count": 68,
+  "update_time": "2026-05-13 02:46:09 UTC",
+  "vod_count": 70,
   "sites": [
     {
       "key": "ms4nii",
@@ -224,6 +224,18 @@
       "playerType": 1
     },
     {
+      "key": "名优馆",
+      "name": "名优馆",
+      "type": 0,
+      "api": "http://mygzycj.com/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "4000",
       "name": "4000",
       "type": 0,
@@ -273,6 +285,16 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
+      "playerType": 1
+    },
+    {
+      "key": "*523资源",
+      "name": "*523资源",
+      "type": 1,
+      "api": "https://caiji.523zyw.com/inc/apijson_vod.php",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
       "playerType": 1
     },
     {
@@ -396,16 +418,6 @@
       "playerType": 1
     },
     {
-      "key": "*CK资源",
-      "name": "*CK资源",
-      "type": 1,
-      "api": "http://www.feifei67.com/api.php/provide/vod/",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "*辣椒资源",
       "name": "*辣椒资源",
       "type": 1,
@@ -456,6 +468,16 @@
       "playerType": 1
     },
     {
+      "key": "*久草资源",
+      "name": "*久草资源",
+      "type": 0,
+      "api": "http://jcspcj8.com/api?ac=videolist",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "*字幕网",
       "name": "*字幕网",
       "type": 0,
@@ -490,18 +512,6 @@
       "name": "字幕网资源",
       "type": 0,
       "api": "http://zmcj88.com/sapi?ac=videolist",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "名优馆",
-      "name": "名优馆",
-      "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -737,6 +747,16 @@
       "name": "成人54",
       "type": 0,
       "api": "https://www.gdlsp.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "caiji.523zyw.com",
+      "name": "成人60",
+      "type": 1,
+      "api": "https://caiji.523zyw.com/inc/apijson_vod.php",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
