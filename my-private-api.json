@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-05-18 02:55:29 UTC",
-  "vod_count": 69,
+  "update_time": "2026-05-19 02:52:10 UTC",
+  "vod_count": 70,
   "sites": [
     {
       "key": "ms4nii",
@@ -221,18 +221,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "playerType": 1
-    },
-    {
-      "key": "名优馆",
-      "name": "名优馆",
-      "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
       "playerType": 1
     },
     {
@@ -508,6 +496,18 @@
       "playerType": 1
     },
     {
+      "key": "名优馆",
+      "name": "名优馆",
+      "type": 0,
+      "api": "http://mygzycj.com/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "大奶子资源",
       "name": "大奶子资源",
       "type": 1,
@@ -657,6 +657,16 @@
       "name": "成人24",
       "type": 0,
       "api": "http://lbapiby.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "mgav1.cc",
+      "name": "成人27",
+      "type": 0,
+      "api": "https://www.mgav1.cc/api.php/provide/vod/at/xml",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
