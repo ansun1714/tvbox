@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-05-19 02:52:10 UTC",
-  "vod_count": 70,
+  "update_time": "2026-05-20 02:52:25 UTC",
+  "vod_count": 72,
   "sites": [
     {
       "key": "ms4nii",
@@ -406,6 +406,16 @@
       "playerType": 1
     },
     {
+      "key": "*CK资源",
+      "name": "*CK资源",
+      "type": 1,
+      "api": "http://www.feifei67.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "*辣椒资源",
       "name": "*辣椒资源",
       "type": 1,
@@ -450,6 +460,16 @@
       "name": "*色色资源",
       "type": 0,
       "api": "http://secj8.com/inc/sapi.php?ac=videolist",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "*久草资源",
+      "name": "*久草资源",
+      "type": 0,
+      "api": "http://jcspcj8.com/api?ac=videolist",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
