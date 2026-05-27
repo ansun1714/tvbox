@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-05-26 02:48:46 UTC",
-  "vod_count": 66,
+  "update_time": "2026-05-27 03:26:21 UTC",
+  "vod_count": 63,
   "sites": [
     {
       "key": "ms4nii",
@@ -203,18 +203,6 @@
       "playerType": 1
     },
     {
-      "key": "名优馆",
-      "name": "名优馆",
-      "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "4000",
       "name": "4000",
       "type": 0,
@@ -247,30 +235,20 @@
       "playerType": 1
     },
     {
-      "key": "*速播资源",
-      "name": "*速播资源",
-      "type": 1,
-      "api": "http://api.suboapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "AVZY",
-      "name": "AVZY",
-      "type": 1,
-      "api": "http://m.7777688.com/inc/apijson.php",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "playerType": 1
-    },
-    {
       "key": "*523资源",
       "name": "*523资源",
       "type": 1,
       "api": "https://caiji.523zyw.com/inc/apijson_vod.php",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "*丝袜资源",
+      "name": "*丝袜资源",
+      "type": 1,
+      "api": "https://siwazyw.cc/api.php/provide/vod/",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -367,16 +345,6 @@
       "playerType": 1
     },
     {
-      "key": "*CK资源",
-      "name": "*CK资源",
-      "type": 1,
-      "api": "http://www.feifei67.com/api.php/provide/vod/",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "*辣椒资源",
       "name": "*辣椒资源",
       "type": 1,
@@ -407,20 +375,20 @@
       "playerType": 1
     },
     {
-      "key": "*AVZY6888资源",
-      "name": "*AVZY6888资源",
-      "type": 1,
-      "api": "http://m.7777688.com/inc/apijson.php",
+      "key": "*色色资源",
+      "name": "*色色资源",
+      "type": 0,
+      "api": "http://secj8.com/inc/sapi.php?ac=videolist",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
     },
     {
-      "key": "*色色资源",
-      "name": "*色色资源",
+      "key": "*久草资源",
+      "name": "*久草资源",
       "type": 0,
-      "api": "http://secj8.com/inc/sapi.php?ac=videolist",
+      "api": "http://jcspcj8.com/api?ac=videolist",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -461,6 +429,18 @@
       "name": "字幕网资源",
       "type": 0,
       "api": "http://zmcj88.com/sapi?ac=videolist",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "名优馆",
+      "name": "名优馆",
+      "type": 0,
+      "api": "http://mygzycj.com/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -616,16 +596,6 @@
       "name": "成人24",
       "type": 0,
       "api": "http://lbapiby.com/api.php/provide/vod/at/xml",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "mgav1.cc",
-      "name": "成人27",
-      "type": 0,
-      "api": "https://www.mgav1.cc/api.php/provide/vod/at/xml",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
