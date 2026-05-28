@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-05-27 03:26:21 UTC",
-  "vod_count": 63,
+  "update_time": "2026-05-28 02:47:31 UTC",
+  "vod_count": 67,
   "sites": [
     {
       "key": "ms4nii",
@@ -172,6 +172,16 @@
       "playerType": 1
     },
     {
+      "key": "速播",
+      "name": "速播",
+      "type": 1,
+      "api": "https://api.suboapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 1
+    },
+    {
       "key": "饮水机2",
       "name": "饮水机",
       "type": 0,
@@ -187,6 +197,17 @@
       "type": 1,
       "api": "https://lbapi9.com/api.php/provide/vod/",
       "playUrl": "json:https://player.77lehuo.com/aliplayer/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 1
+    },
+    {
+      "key": "乐鱼",
+      "name": "乐鱼",
+      "type": 0,
+      "api": "https://www.leyuzyapi.com/inc/zyapimac.php",
+      "playUrl": "https://player.leyuzy.net/?url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -235,6 +256,26 @@
       "playerType": 1
     },
     {
+      "key": "*速播资源",
+      "name": "*速播资源",
+      "type": 1,
+      "api": "http://api.suboapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "AVZY",
+      "name": "AVZY",
+      "type": 1,
+      "api": "http://m.7777688.com/inc/apijson.php",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "playerType": 1
+    },
+    {
       "key": "*523资源",
       "name": "*523资源",
       "type": 1,
@@ -255,10 +296,10 @@
       "playerType": 1
     },
     {
-      "key": "*芒果资源",
-      "name": "*芒果资源",
+      "key": "*乐鱼资源",
+      "name": "*乐鱼资源",
       "type": 1,
-      "api": "https://mgzyz1.com/api.php/provide/vod/",
+      "api": "https://www.leyuzyapi.com/inc/apijson_vod.php",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -279,6 +320,16 @@
       "name": "*91麻豆",
       "type": 1,
       "api": "https://91md.me/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "*速播资源",
+      "name": "*速播资源",
+      "type": 1,
+      "api": "https://api.suboapi.com/api.php/provide/vod/",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -375,10 +426,10 @@
       "playerType": 1
     },
     {
-      "key": "*色色资源",
-      "name": "*色色资源",
-      "type": 0,
-      "api": "http://secj8.com/inc/sapi.php?ac=videolist",
+      "key": "*AVZY6888资源",
+      "name": "*AVZY6888资源",
+      "type": 1,
+      "api": "http://m.7777688.com/inc/apijson.php",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -542,16 +593,6 @@
       "playerType": 1
     },
     {
-      "key": "secj8.com",
-      "name": "成人07",
-      "type": 0,
-      "api": "http://secj8.com/inc/sapi.php?ac=videolist",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "apilj.com",
       "name": "成人10",
       "type": 1,
@@ -602,10 +643,10 @@
       "playerType": 1
     },
     {
-      "key": "mgzyz1.com",
-      "name": "成人28",
-      "type": 1,
-      "api": "https://mgzyz1.com/api.php/provide/vod/",
+      "key": "mgav1.cc",
+      "name": "成人27",
+      "type": 0,
+      "api": "https://www.mgav1.cc/api.php/provide/vod/at/xml",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
