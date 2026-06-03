@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-06-02 03:36:04 UTC",
-  "vod_count": 64,
+  "update_time": "2026-06-03 03:42:30 UTC",
+  "vod_count": 67,
   "sites": [
     {
       "key": "ms4nii",
@@ -221,6 +221,18 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
+      "playerType": 1
+    },
+    {
+      "key": "4000",
+      "name": "4000",
+      "type": 0,
+      "api": "http://4000zy.com/inc/api.php",
+      "playUrl": "",
+      "categories": [],
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "playerType": 1
     },
     {
@@ -454,6 +466,16 @@
       "playerType": 1
     },
     {
+      "key": "*鲨鱼资源",
+      "name": "*鲨鱼资源",
+      "type": 1,
+      "api": "https://shayuapi.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "zmcj88",
       "name": "字幕网资源",
       "type": 0,
@@ -615,6 +637,16 @@
       "name": "成人24",
       "type": 0,
       "api": "http://lbapiby.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "mgav1.cc",
+      "name": "成人27",
+      "type": 0,
+      "api": "https://www.mgav1.cc/api.php/provide/vod/at/xml",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
