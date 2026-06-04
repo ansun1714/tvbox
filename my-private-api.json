@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-06-03 03:42:30 UTC",
-  "vod_count": 67,
+  "update_time": "2026-06-04 03:38:26 UTC",
+  "vod_count": 62,
   "sites": [
     {
       "key": "ms4nii",
@@ -396,6 +396,16 @@
       "playerType": 1
     },
     {
+      "key": "*CK资源",
+      "name": "*CK资源",
+      "type": 1,
+      "api": "http://www.feifei67.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "*辣椒资源",
       "name": "*辣椒资源",
       "type": 1,
@@ -416,40 +426,10 @@
       "playerType": 1
     },
     {
-      "key": "*JAV名优馆",
-      "name": "*JAV名优馆",
-      "type": 0,
-      "api": "http://mygzycj.com/api.php?ac=videolist",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "*AVZY6888资源",
       "name": "*AVZY6888资源",
       "type": 1,
       "api": "http://m.7777688.com/inc/apijson.php",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "*久草资源",
-      "name": "*久草资源",
-      "type": 0,
-      "api": "http://jcspcj8.com/api?ac=videolist",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "*字幕网",
-      "name": "*字幕网",
-      "type": 0,
-      "api": "http://zmcj88.com/sapi?ac=videolist",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -472,28 +452,6 @@
       "api": "https://shayuapi.com/api.php/provide/vod/",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "zmcj88",
-      "name": "字幕网资源",
-      "type": 0,
-      "api": "http://zmcj88.com/sapi?ac=videolist",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "名优馆",
-      "name": "名优馆",
-      "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
-      "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1,
       "playerType": 1
     },
@@ -558,16 +516,6 @@
       "categories": [
         "伦理片"
       ],
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "jcspcj8.com",
-      "name": "成人02",
-      "type": 0,
-      "api": "http://jcspcj8.com/api?ac=videolist",
-      "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 1
