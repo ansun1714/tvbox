@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-06-05 03:25:15 UTC",
-  "vod_count": 64,
+  "update_time": "2026-06-06 02:47:29 UTC",
+  "vod_count": 66,
   "sites": [
     {
       "key": "ms4nii",
@@ -273,6 +273,16 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
+      "playerType": 1
+    },
+    {
+      "key": "*523资源",
+      "name": "*523资源",
+      "type": 1,
+      "api": "https://caiji.523zyw.com/inc/apijson_vod.php",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
       "playerType": 1
     },
     {
@@ -697,6 +707,16 @@
       "name": "成人54",
       "type": 0,
       "api": "https://www.gdlsp.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "caiji.523zyw.com",
+      "name": "成人60",
+      "type": 1,
+      "api": "https://caiji.523zyw.com/inc/apijson_vod.php",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
