@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-06-14 03:37:40 UTC",
-  "vod_count": 67,
+  "update_time": "2026-06-15 03:52:49 UTC",
+  "vod_count": 69,
   "sites": [
     {
       "key": "ms4nii",
@@ -203,6 +203,17 @@
       "playerType": 1
     },
     {
+      "key": "523",
+      "name": "523",
+      "type": 0,
+      "api": "https://caiji.523zyw.com/inc/seacmsapi.php",
+      "playUrl": "https://api.523zyw.com/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 1
+    },
+    {
       "key": "乐鱼",
       "name": "乐鱼",
       "type": 0,
@@ -221,18 +232,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "playerType": 1
-    },
-    {
-      "key": "名优馆",
-      "name": "名优馆",
-      "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
       "playerType": 1
     },
     {
@@ -448,6 +447,16 @@
       "playerType": 1
     },
     {
+      "key": "*久草资源",
+      "name": "*久草资源",
+      "type": 0,
+      "api": "http://jcspcj8.com/api?ac=videolist",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "*字幕网",
       "name": "*字幕网",
       "type": 0,
@@ -482,6 +491,18 @@
       "name": "字幕网资源",
       "type": 0,
       "api": "http://zmcj88.com/sapi?ac=videolist",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "名优馆",
+      "name": "名优馆",
+      "type": 0,
+      "api": "http://mygzycj.com/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
