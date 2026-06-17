@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-06-16 03:41:35 UTC",
-  "vod_count": 69,
+  "update_time": "2026-06-17 03:41:40 UTC",
+  "vod_count": 67,
   "sites": [
     {
       "key": "ms4nii",
@@ -214,17 +214,6 @@
       "playerType": 1
     },
     {
-      "key": "乐鱼",
-      "name": "乐鱼",
-      "type": 0,
-      "api": "https://www.leyuzyapi.com/inc/zyapimac.php",
-      "playUrl": "https://player.leyuzy.net/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "playerType": 1
-    },
-    {
       "key": "9号资源",
       "name": "9号资源",
       "type": 0,
@@ -337,16 +326,6 @@
       "playerType": 1
     },
     {
-      "key": "*速播资源",
-      "name": "*速播资源",
-      "type": 1,
-      "api": "https://api.suboapi.com/api.php/provide/vod/",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "*美少女资源",
       "name": "*美少女资源",
       "type": 0,
@@ -401,6 +380,16 @@
       "name": "*大地资源",
       "type": 0,
       "api": "https://dadiapi.com/api.php",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "*CK资源",
+      "name": "*CK资源",
+      "type": 1,
+      "api": "http://www.feifei67.com/api.php/provide/vod/",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -497,15 +486,14 @@
       "playerType": 1
     },
     {
-      "key": "名优馆",
-      "name": "名优馆",
+      "key": "乐鱼",
+      "name": "乐鱼",
       "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
+      "api": "https://www.leyuzyapi.com/inc/zyapimac.php",
+      "playUrl": "https://player.leyuzy.net/?url=",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "filterable": 0,
       "playerType": 1
     },
     {
@@ -633,16 +621,6 @@
       "name": "成人14",
       "type": 1,
       "api": "http://fhapi9.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "feifei67.com",
-      "name": "成人15",
-      "type": 1,
-      "api": "http://www.feifei67.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
