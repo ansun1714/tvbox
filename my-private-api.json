@@ -1,6 +1,6 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-07-01 03:27:01 UTC",
+  "update_time": "2026-07-02 02:52:27 UTC",
   "vod_count": 67,
   "sites": [
     {
@@ -203,6 +203,17 @@
       "playerType": 1
     },
     {
+      "key": "乐鱼",
+      "name": "乐鱼",
+      "type": 0,
+      "api": "https://www.leyuzyapi.com/inc/zyapimac.php",
+      "playUrl": "https://player.leyuzy.net/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 1
+    },
+    {
       "key": "9号资源",
       "name": "9号资源",
       "type": 0,
@@ -385,16 +396,6 @@
       "playerType": 1
     },
     {
-      "key": "*CK资源",
-      "name": "*CK资源",
-      "type": 1,
-      "api": "http://www.feifei67.com/api.php/provide/vod/",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "*辣椒资源",
       "name": "*辣椒资源",
       "type": 1,
@@ -472,17 +473,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "乐鱼",
-      "name": "乐鱼",
-      "type": 0,
-      "api": "https://www.leyuzyapi.com/inc/zyapimac.php",
-      "playUrl": "https://player.leyuzy.net/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
       "playerType": 1
     },
     {
@@ -652,6 +642,16 @@
       "name": "成人24",
       "type": 0,
       "api": "http://lbapiby.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "mgav1.cc",
+      "name": "成人27",
+      "type": 0,
+      "api": "https://www.mgav1.cc/api.php/provide/vod/at/xml",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
