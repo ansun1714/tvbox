@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-07-20 02:36:30 UTC",
-  "vod_count": 63,
+  "update_time": "2026-07-21 02:20:36 UTC",
+  "vod_count": 64,
   "sites": [
     {
       "key": "ms4nii",
@@ -276,6 +276,16 @@
       "playerType": 1
     },
     {
+      "key": "*523资源",
+      "name": "*523资源",
+      "type": 1,
+      "api": "https://caiji.523zyw.com/inc/apijson_vod.php",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "*乐鱼资源",
       "name": "*乐鱼资源",
       "type": 1,
@@ -410,16 +420,6 @@
       "name": "*AVZY6888资源",
       "type": 1,
       "api": "http://m.7777688.com/inc/apijson.php",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "*久草资源",
-      "name": "*久草资源",
-      "type": 0,
-      "api": "http://jcspcj8.com/api?ac=videolist",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -692,6 +692,16 @@
       "name": "成人54",
       "type": 0,
       "api": "https://www.gdlsp.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "caiji.523zyw.com",
+      "name": "成人60",
+      "type": 1,
+      "api": "https://caiji.523zyw.com/inc/apijson_vod.php",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
