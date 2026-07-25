@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-07-24 02:21:26 UTC",
-  "vod_count": 65,
+  "update_time": "2026-07-25 02:14:57 UTC",
+  "vod_count": 72,
   "sites": [
     {
       "key": "ms4nii",
@@ -160,6 +160,16 @@
       "playerType": 1
     },
     {
+      "key": "环亚",
+      "name": "环亚",
+      "type": 0,
+      "api": "http://wmcj8.com/inc/sapi.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 1
+    },
+    {
       "key": "91md",
       "name": "91md",
       "type": 1,
@@ -224,6 +234,18 @@
       "playerType": 1
     },
     {
+      "key": "名优馆",
+      "name": "名优馆",
+      "type": 0,
+      "api": "http://mygzycj.com/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "4000",
       "name": "4000",
       "type": 0,
@@ -280,6 +302,16 @@
       "name": "*523资源",
       "type": 1,
       "api": "https://caiji.523zyw.com/inc/apijson_vod.php",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "*芒果资源",
+      "name": "*芒果资源",
+      "type": 1,
+      "api": "https://mgzyz1.com/api.php/provide/vod/",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -386,16 +418,6 @@
       "playerType": 1
     },
     {
-      "key": "*CK资源",
-      "name": "*CK资源",
-      "type": 1,
-      "api": "http://www.feifei67.com/api.php/provide/vod/",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "*辣椒资源",
       "name": "*辣椒资源",
       "type": 1,
@@ -416,6 +438,16 @@
       "playerType": 1
     },
     {
+      "key": "*环亚资源",
+      "name": "*环亚资源",
+      "type": 0,
+      "api": "http://wmcj8.com/inc/sapi.php",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "*JAV名优馆",
       "name": "*JAV名优馆",
       "type": 0,
@@ -430,6 +462,26 @@
       "name": "*AVZY6888资源",
       "type": 1,
       "api": "http://m.7777688.com/inc/apijson.php",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "*色色资源",
+      "name": "*色色资源",
+      "type": 0,
+      "api": "http://secj8.com/inc/sapi.php?ac=videolist",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "*久草资源",
+      "name": "*久草资源",
+      "type": 0,
+      "api": "http://jcspcj8.com/api?ac=videolist",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -470,18 +522,6 @@
       "name": "字幕网资源",
       "type": 0,
       "api": "http://zmcj88.com/sapi?ac=videolist",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "名优馆",
-      "name": "名优馆",
-      "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -598,6 +638,16 @@
       "playerType": 1
     },
     {
+      "key": "secj8.com",
+      "name": "成人07",
+      "type": 0,
+      "api": "http://secj8.com/inc/sapi.php?ac=videolist",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "apilj.com",
       "name": "成人10",
       "type": 1,
@@ -642,6 +692,26 @@
       "name": "成人24",
       "type": 0,
       "api": "http://lbapiby.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "mgav1.cc",
+      "name": "成人27",
+      "type": 0,
+      "api": "https://www.mgav1.cc/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "mgzyz1.com",
+      "name": "成人28",
+      "type": 1,
+      "api": "https://mgzyz1.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
