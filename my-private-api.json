@@ -1,6 +1,6 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-07-27 02:33:29 UTC",
+  "update_time": "2026-07-28 02:08:20 UTC",
   "vod_count": 71,
   "sites": [
     {
@@ -286,16 +286,6 @@
       "playerType": 1
     },
     {
-      "key": "*523资源",
-      "name": "*523资源",
-      "type": 1,
-      "api": "https://caiji.523zyw.com/inc/apijson_vod.php",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "*芒果资源",
       "name": "*芒果资源",
       "type": 1,
@@ -460,6 +450,16 @@
       "name": "*色色资源",
       "type": 0,
       "api": "http://secj8.com/inc/sapi.php?ac=videolist",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "*久草资源",
+      "name": "*久草资源",
+      "type": 0,
+      "api": "http://jcspcj8.com/api?ac=videolist",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
