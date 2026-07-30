@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-07-29 02:11:41 UTC",
-  "vod_count": 72,
+  "update_time": "2026-07-30 02:00:44 UTC",
+  "vod_count": 71,
   "sites": [
     {
       "key": "ms4nii",
@@ -412,16 +412,6 @@
       "name": "*大地资源",
       "type": 0,
       "api": "https://dadiapi.com/api.php",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "*CK资源",
-      "name": "*CK资源",
-      "type": 1,
-      "api": "http://www.feifei67.com/api.php/provide/vod/",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
