@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-08-02 02:24:34 UTC",
-  "vod_count": 71,
+  "update_time": "2026-08-03 02:26:57 UTC",
+  "vod_count": 72,
   "sites": [
     {
       "key": "ms4nii",
@@ -234,6 +234,18 @@
       "playerType": 1
     },
     {
+      "key": "名优馆",
+      "name": "名优馆",
+      "type": 0,
+      "api": "http://mygzycj.com/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "4000",
       "name": "4000",
       "type": 0,
@@ -406,6 +418,16 @@
       "playerType": 1
     },
     {
+      "key": "*CK资源",
+      "name": "*CK资源",
+      "type": 1,
+      "api": "http://www.feifei67.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "*辣椒资源",
       "name": "*辣椒资源",
       "type": 1,
@@ -510,18 +532,6 @@
       "name": "字幕网资源",
       "type": 0,
       "api": "http://zmcj88.com/sapi?ac=videolist",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "名优馆",
-      "name": "名优馆",
-      "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
