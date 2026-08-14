@@ -1,6 +1,6 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-08-13 01:39:10 UTC",
+  "update_time": "2026-08-14 01:37:22 UTC",
   "vod_count": 71,
   "sites": [
     {
@@ -416,6 +416,16 @@
       "playerType": 1
     },
     {
+      "key": "*CK资源",
+      "name": "*CK资源",
+      "type": 1,
+      "api": "http://www.feifei67.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "*辣椒资源",
       "name": "*辣椒资源",
       "type": 1,
@@ -584,20 +594,6 @@
       "name": "量子",
       "type": 0,
       "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "伦理片"
-      ],
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "非凡",
-      "name": "非凡",
-      "type": 0,
-      "api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "changeable": 1,
       "categories": [
