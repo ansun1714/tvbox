@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-08-22 00:58:54 UTC",
-  "vod_count": 69,
+  "update_time": "2026-08-23 01:04:13 UTC",
+  "vod_count": 71,
   "sites": [
     {
       "key": "ms4nii",
@@ -241,18 +241,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "playerType": 1
-    },
-    {
-      "key": "名优馆",
-      "name": "名优馆",
-      "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
       "playerType": 1
     },
     {
@@ -528,6 +516,18 @@
       "playerType": 1
     },
     {
+      "key": "名优馆",
+      "name": "名优馆",
+      "type": 0,
+      "api": "http://mygzycj.com/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "av资源",
       "name": "av资源",
       "type": 1,
@@ -562,6 +562,17 @@
       "name": "爱坤",
       "type": 1,
       "api": "https://ikunzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "apilj",
+      "name": "辣椒",
+      "type": 0,
+      "api": "https://apilj.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -751,6 +762,16 @@
       "name": "成人54",
       "type": 0,
       "api": "https://www.gdlsp.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "caiji.523zyw.com",
+      "name": "成人60",
+      "type": 1,
+      "api": "https://caiji.523zyw.com/inc/apijson_vod.php",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
