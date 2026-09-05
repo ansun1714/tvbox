@@ -1,6 +1,6 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-09-04 02:41:54 UTC",
+  "update_time": "2026-09-05 02:43:27 UTC",
   "vod_count": 69,
   "sites": [
     {
@@ -241,6 +241,18 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
+      "playerType": 1
+    },
+    {
+      "key": "名优馆",
+      "name": "名优馆",
+      "type": 0,
+      "api": "http://mygzycj.com/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "playerType": 1
     },
     {
@@ -502,18 +514,6 @@
       "api": "https://shayuapi.com/api.php/provide/vod/",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "名优馆",
-      "name": "名优馆",
-      "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
-      "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1,
       "playerType": 1
     },
