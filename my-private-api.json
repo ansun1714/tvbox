@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-09-05 02:43:27 UTC",
-  "vod_count": 69,
+  "update_time": "2026-09-06 02:41:11 UTC",
+  "vod_count": 70,
   "sites": [
     {
       "key": "ms4nii",
@@ -223,17 +223,6 @@
       "playerType": 1
     },
     {
-      "key": "乐鱼",
-      "name": "乐鱼",
-      "type": 0,
-      "api": "https://www.leyuzyapi.com/inc/zyapimac.php",
-      "playUrl": "https://player.leyuzy.net/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "playerType": 1
-    },
-    {
       "key": "9号资源",
       "name": "9号资源",
       "type": 0,
@@ -418,6 +407,16 @@
       "playerType": 1
     },
     {
+      "key": "*CK资源",
+      "name": "*CK资源",
+      "type": 1,
+      "api": "http://www.feifei67.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "*辣椒资源",
       "name": "*辣椒资源",
       "type": 1,
@@ -515,6 +514,17 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "乐鱼",
+      "name": "乐鱼",
+      "type": 0,
+      "api": "https://www.leyuzyapi.com/inc/zyapimac.php",
+      "playUrl": "https://player.leyuzy.net/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
       "playerType": 1
     },
     {
