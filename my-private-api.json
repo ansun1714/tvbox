@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-09-08 02:51:23 UTC",
-  "vod_count": 68,
+  "update_time": "2026-09-09 02:51:14 UTC",
+  "vod_count": 67,
   "sites": [
     {
       "key": "ms4nii",
@@ -182,16 +182,6 @@
       "playerType": 1
     },
     {
-      "key": "速播",
-      "name": "速播",
-      "type": 1,
-      "api": "https://api.suboapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "playerType": 1
-    },
-    {
       "key": "饮水机2",
       "name": "饮水机",
       "type": 0,
@@ -288,6 +278,16 @@
       "playerType": 1
     },
     {
+      "key": "*速播资源",
+      "name": "*速播资源",
+      "type": 1,
+      "api": "http://api.suboapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "AVZY",
       "name": "AVZY",
       "type": 1,
@@ -322,16 +322,6 @@
       "name": "*91麻豆",
       "type": 1,
       "api": "https://91md.me/api.php/provide/vod/",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "*速播资源",
-      "name": "*速播资源",
-      "type": 1,
-      "api": "https://api.suboapi.com/api.php/provide/vod/",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -448,6 +438,16 @@
       "playerType": 1
     },
     {
+      "key": "*AVZY6888资源",
+      "name": "*AVZY6888资源",
+      "type": 1,
+      "api": "http://m.7777688.com/inc/apijson.php",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "*色色资源",
       "name": "*色色资源",
       "type": 0,
@@ -495,17 +495,6 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "乐鱼",
-      "name": "乐鱼",
-      "type": 0,
-      "api": "https://www.leyuzyapi.com/inc/zyapimac.php",
-      "playUrl": "https://player.leyuzy.net/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
       "playerType": 1
     },
     {
