@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-09-13 02:54:30 UTC",
-  "vod_count": 67,
+  "update_time": "2026-09-14 03:08:14 UTC",
+  "vod_count": 66,
   "sites": [
     {
       "key": "ms4nii",
@@ -482,16 +482,6 @@
       "name": "*番号资源",
       "type": 1,
       "api": "http://fhapi9.com/api.php/provide/vod/",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "*鲨鱼资源",
-      "name": "*鲨鱼资源",
-      "type": 1,
-      "api": "https://shayuapi.com/api.php/provide/vod/",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
