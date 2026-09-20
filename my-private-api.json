@@ -1,6 +1,6 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-09-19 02:55:47 UTC",
+  "update_time": "2026-09-20 03:08:52 UTC",
   "vod_count": 68,
   "sites": [
     {
@@ -398,16 +398,6 @@
       "playerType": 1
     },
     {
-      "key": "*CK资源",
-      "name": "*CK资源",
-      "type": 1,
-      "api": "http://www.feifei67.com/api.php/provide/vod/",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "*辣椒资源",
       "name": "*辣椒资源",
       "type": 1,
@@ -542,6 +532,17 @@
       "name": "爱坤",
       "type": 1,
       "api": "https://ikunzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "feisuzyapi",
+      "name": "飞速",
+      "type": 1,
+      "api": "https://www.feisuzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
