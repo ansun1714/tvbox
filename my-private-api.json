@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-09-27 03:24:42 UTC",
-  "vod_count": 71,
+  "update_time": "2026-09-28 03:22:27 UTC",
+  "vod_count": 70,
   "sites": [
     {
       "key": "ms4nii",
@@ -694,16 +694,6 @@
       "name": "成人17",
       "type": 1,
       "api": "http://madouse.la/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "mgav1.cc",
-      "name": "成人27",
-      "type": 0,
-      "api": "https://www.mgav1.cc/api.php/provide/vod/at/xml",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
