@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-09-30 03:46:13 UTC",
-  "vod_count": 72,
+  "update_time": "2026-10-01 03:53:19 UTC",
+  "vod_count": 73,
   "sites": [
     {
       "key": "ms4nii",
@@ -245,6 +245,18 @@
       "playerType": 1
     },
     {
+      "key": "名优馆",
+      "name": "名优馆",
+      "type": 0,
+      "api": "http://mygzycj.com/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "4000",
       "name": "4000",
       "type": 0,
@@ -311,6 +323,16 @@
       "name": "*芒果资源",
       "type": 1,
       "api": "https://mgzyz1.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "*乐鱼资源",
+      "name": "*乐鱼资源",
+      "type": 1,
+      "api": "https://www.leyuzyapi.com/inc/apijson_vod.php",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -417,6 +439,16 @@
       "playerType": 1
     },
     {
+      "key": "*CK资源",
+      "name": "*CK资源",
+      "type": 1,
+      "api": "http://www.feifei67.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "*辣椒资源",
       "name": "*辣椒资源",
       "type": 1,
@@ -503,28 +535,6 @@
       "api": "https://shayuapi.com/api.php/provide/vod/",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "*KK写真资源",
-      "name": "*KK写真资源",
-      "type": 1,
-      "api": "https://kkzy.me/api.php/provide/vod/",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "名优馆",
-      "name": "名优馆",
-      "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
-      "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1,
       "playerType": 1
     },
