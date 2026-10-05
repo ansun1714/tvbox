@@ -1,6 +1,6 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-10-04 04:05:21 UTC",
+  "update_time": "2026-10-05 03:49:48 UTC",
   "vod_count": 73,
   "sites": [
     {
@@ -213,6 +213,17 @@
       "playerType": 1
     },
     {
+      "key": "乐鱼",
+      "name": "乐鱼",
+      "type": 0,
+      "api": "https://www.leyuzyapi.com/inc/zyapimac.php",
+      "playUrl": "https://player.leyuzy.net/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 1
+    },
+    {
       "key": "酷豆",
       "name": "酷豆",
       "type": 1,
@@ -231,6 +242,18 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
+      "playerType": 1
+    },
+    {
+      "key": "名优馆",
+      "name": "名优馆",
+      "type": 0,
+      "api": "http://mygzycj.com/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "playerType": 1
     },
     {
@@ -506,25 +529,12 @@
       "playerType": 1
     },
     {
-      "key": "乐鱼",
-      "name": "乐鱼",
-      "type": 0,
-      "api": "https://www.leyuzyapi.com/inc/zyapimac.php",
-      "playUrl": "https://player.leyuzy.net/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "playerType": 1
-    },
-    {
-      "key": "名优馆",
-      "name": "名优馆",
-      "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
-      "searchable": 1,
-      "quickSearch": 1,
+      "key": "*KK写真资源",
+      "name": "*KK写真资源",
+      "type": 1,
+      "api": "https://kkzy.me/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
     },
@@ -705,16 +715,6 @@
       "name": "成人17",
       "type": 1,
       "api": "http://madouse.la/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "mgav1.cc",
-      "name": "成人27",
-      "type": 0,
-      "api": "https://www.mgav1.cc/api.php/provide/vod/at/xml",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
