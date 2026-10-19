@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-10-18 02:49:32 UTC",
-  "vod_count": 73,
+  "update_time": "2026-10-19 03:02:34 UTC",
+  "vod_count": 71,
   "sites": [
     {
       "key": "ms4nii",
@@ -179,16 +179,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "速播",
-      "name": "速播",
-      "type": 1,
-      "api": "https://api.suboapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
       "playerType": 1
     },
     {
@@ -693,16 +683,6 @@
       "name": "成人14",
       "type": 1,
       "api": "http://fhapi9.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "feifei67.com",
-      "name": "成人15",
-      "type": 1,
-      "api": "http://www.feifei67.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
