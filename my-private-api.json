@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-10-21 03:07:12 UTC",
-  "vod_count": 73,
+  "update_time": "2026-10-22 03:05:35 UTC",
+  "vod_count": 66,
   "sites": [
     {
       "key": "ms4nii",
@@ -49,25 +49,6 @@
       "type": 0,
       "api": "https://www.pgxdy.com/api/xml.php",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "dadiapi.com",
-      "name": "成人01",
-      "type": 0,
-      "api": "http://dadiapi.com/api.php",
-      "searchable": 1,
-      "recordable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "header": {
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-        "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
-      },
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 1
@@ -134,16 +115,6 @@
       "name": "成人06",
       "type": 0,
       "api": "https://www.xrbsp.com/api/xml.php",
-      "quickSearch": 1,
-      "searchable": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "dadiapi.com",
-      "name": "成人07",
-      "type": 0,
-      "api": "http://dadiapi.com/api.php",
       "quickSearch": 1,
       "searchable": 1,
       "filterable": 1,
@@ -223,17 +194,6 @@
       "playerType": 1
     },
     {
-      "key": "乐鱼",
-      "name": "乐鱼",
-      "type": 0,
-      "api": "https://www.leyuzyapi.com/inc/zyapimac.php",
-      "playUrl": "https://player.leyuzy.net/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "playerType": 1
-    },
-    {
       "key": "9号资源",
       "name": "9号资源",
       "type": 0,
@@ -241,6 +201,18 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
+      "playerType": 1
+    },
+    {
+      "key": "名优馆",
+      "name": "名优馆",
+      "type": 0,
+      "api": "http://mygzycj.com/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "playerType": 1
     },
     {
@@ -260,16 +232,6 @@
       "name": "*水蜜桃",
       "type": 1,
       "api": "http://51smt4.xyz/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "*大地资源",
-      "name": "*大地资源",
-      "type": 0,
-      "api": "https://dadiapi.com/api.php/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -406,26 +368,6 @@
       "playerType": 1
     },
     {
-      "key": "*大地资源",
-      "name": "*大地资源",
-      "type": 0,
-      "api": "https://dadiapi.com/api.php",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "*CK资源",
-      "name": "*CK资源",
-      "type": 1,
-      "api": "http://www.feifei67.com/api.php/provide/vod/",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "*花椒资源",
       "name": "*花椒资源",
       "type": 1,
@@ -536,15 +478,14 @@
       "playerType": 1
     },
     {
-      "key": "名优馆",
-      "name": "名优馆",
+      "key": "乐鱼",
+      "name": "乐鱼",
       "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
+      "api": "https://www.leyuzyapi.com/inc/zyapimac.php",
+      "playUrl": "https://player.leyuzy.net/?url=",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "filterable": 0,
       "playerType": 1
     },
     {
@@ -669,16 +610,6 @@
       "playerType": 1
     },
     {
-      "key": "dadiapi.com",
-      "name": "成人06",
-      "type": 0,
-      "api": "http://dadiapi.com/api.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "apilj.com",
       "name": "成人10",
       "type": 1,
@@ -733,16 +664,6 @@
       "name": "成人29",
       "type": 0,
       "api": "https://www.msnii.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "kkzy.me",
-      "name": "成人30",
-      "type": 1,
-      "api": "https://kkzy.me/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
