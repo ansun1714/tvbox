@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-10-24 03:05:00 UTC",
-  "vod_count": 67,
+  "update_time": "2026-10-25 02:59:36 UTC",
+  "vod_count": 64,
   "sites": [
     {
       "key": "ms4nii",
@@ -153,16 +153,6 @@
       "playerType": 1
     },
     {
-      "key": "速播",
-      "name": "速播",
-      "type": 1,
-      "api": "https://api.suboapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "playerType": 1
-    },
-    {
       "key": "饮水机2",
       "name": "饮水机",
       "type": 0,
@@ -212,18 +202,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "playerType": 1
-    },
-    {
-      "key": "名优馆",
-      "name": "名优馆",
-      "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
       "playerType": 1
     },
     {
@@ -293,16 +271,6 @@
       "name": "*乐鱼资源",
       "type": 1,
       "api": "https://www.leyuzyapi.com/inc/apijson_vod.php",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "*麻豆视频2",
-      "name": "*麻豆视频2",
-      "type": 1,
-      "api": "https://madouse.la/api.php/provide/vod/",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -379,16 +347,6 @@
       "playerType": 1
     },
     {
-      "key": "*CK资源",
-      "name": "*CK资源",
-      "type": 1,
-      "api": "http://www.feifei67.com/api.php/provide/vod/",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "*花椒资源",
       "name": "*花椒资源",
       "type": 1,
@@ -449,16 +407,6 @@
       "playerType": 1
     },
     {
-      "key": "*久草资源",
-      "name": "*久草资源",
-      "type": 0,
-      "api": "http://jcspcj8.com/api?ac=videolist",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "*字幕网",
       "name": "*字幕网",
       "type": 0,
@@ -489,10 +437,32 @@
       "playerType": 1
     },
     {
+      "key": "*KK写真资源",
+      "name": "*KK写真资源",
+      "type": 1,
+      "api": "https://kkzy.me/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "zmcj88",
       "name": "字幕网资源",
       "type": 0,
       "api": "http://zmcj88.com/sapi?ac=videolist",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "名优馆",
+      "name": "名优馆",
+      "type": 0,
+      "api": "http://mygzycj.com/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -640,6 +610,16 @@
       "playerType": 1
     },
     {
+      "key": "feifei67.com",
+      "name": "成人15",
+      "type": 1,
+      "api": "http://www.feifei67.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "madouse.la",
       "name": "成人17",
       "type": 1,
@@ -664,16 +644,6 @@
       "name": "成人29",
       "type": 0,
       "api": "https://www.msnii.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "kkzy.me",
-      "name": "成人30",
-      "type": 1,
-      "api": "https://kkzy.me/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
