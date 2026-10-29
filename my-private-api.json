@@ -1,6 +1,6 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-10-28 03:46:52 UTC",
+  "update_time": "2026-10-29 04:09:13 UTC",
   "vod_count": 69,
   "sites": [
     {
@@ -244,6 +244,18 @@
       "playerType": 1
     },
     {
+      "key": "名优馆",
+      "name": "名优馆",
+      "type": 0,
+      "api": "http://mygzycj.com/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
       "key": "4000",
       "name": "4000",
       "type": 0,
@@ -310,16 +322,6 @@
       "name": "*乐鱼资源",
       "type": 1,
       "api": "https://www.leyuzyapi.com/inc/apijson_vod.php",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "*麻豆视频2",
-      "name": "*麻豆视频2",
-      "type": 1,
-      "api": "https://madouse.la/api.php/provide/vod/",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -496,22 +498,20 @@
       "playerType": 1
     },
     {
-      "key": "zmcj88",
-      "name": "字幕网资源",
-      "type": 0,
-      "api": "http://zmcj88.com/sapi?ac=videolist",
-      "searchable": 1,
-      "quickSearch": 1,
+      "key": "*KK写真资源",
+      "name": "*KK写真资源",
+      "type": 1,
+      "api": "https://kkzy.me/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
     },
     {
-      "key": "名优馆",
-      "name": "名优馆",
+      "key": "zmcj88",
+      "name": "字幕网资源",
       "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
+      "api": "http://zmcj88.com/sapi?ac=videolist",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
