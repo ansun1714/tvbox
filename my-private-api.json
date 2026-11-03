@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-11-02 04:07:49 UTC",
-  "vod_count": 68,
+  "update_time": "2026-11-03 05:07:55 UTC",
+  "vod_count": 70,
   "sites": [
     {
       "key": "ms4nii",
@@ -182,6 +182,16 @@
       "playerType": 1
     },
     {
+      "key": "速播",
+      "name": "速播",
+      "type": 1,
+      "api": "https://api.suboapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 1
+    },
+    {
       "key": "饮水机2",
       "name": "饮水机",
       "type": 0,
@@ -231,6 +241,18 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
+      "playerType": 1
+    },
+    {
+      "key": "名优馆",
+      "name": "名优馆",
+      "type": 0,
+      "api": "http://mygzycj.com/sapi.php?ac=videolist",
+      "playUrl": "",
+      "categories": [],
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "playerType": 1
     },
     {
@@ -486,22 +508,20 @@
       "playerType": 1
     },
     {
-      "key": "zmcj88",
-      "name": "字幕网资源",
-      "type": 0,
-      "api": "http://zmcj88.com/sapi?ac=videolist",
-      "searchable": 1,
-      "quickSearch": 1,
+      "key": "*KK写真资源",
+      "name": "*KK写真资源",
+      "type": 1,
+      "api": "https://kkzy.me/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
     },
     {
-      "key": "名优馆",
-      "name": "名优馆",
+      "key": "zmcj88",
+      "name": "字幕网资源",
       "type": 0,
-      "api": "http://mygzycj.com/sapi.php?ac=videolist",
-      "playUrl": "",
-      "categories": [],
+      "api": "http://zmcj88.com/sapi?ac=videolist",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
