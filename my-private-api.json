@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-11-08 04:09:33 UTC",
-  "vod_count": 64,
+  "update_time": "2026-11-09 04:24:44 UTC",
+  "vod_count": 61,
   "sites": [
     {
       "key": "ms4nii",
@@ -395,16 +395,6 @@
       "playerType": 1
     },
     {
-      "key": "*久草资源",
-      "name": "*久草资源",
-      "type": 0,
-      "api": "http://jcspcj8.com/api?ac=videolist",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "*字幕网",
       "name": "*字幕网",
       "type": 0,
@@ -435,16 +425,6 @@
       "playerType": 1
     },
     {
-      "key": "*KK写真资源",
-      "name": "*KK写真资源",
-      "type": 1,
-      "api": "https://kkzy.me/api.php/provide/vod/",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "zmcj88",
       "name": "字幕网资源",
       "type": 0,
@@ -462,21 +442,6 @@
       "playUrl": "",
       "categories": [],
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "av资源",
-      "name": "av资源",
-      "type": 1,
-      "api": "https://api.souavzy.vip/api.php/provide/vod/at/json",
-      "searchable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "changeable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 1
