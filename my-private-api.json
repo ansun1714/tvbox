@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-11-17 06:18:29 UTC",
-  "vod_count": 62,
+  "update_time": "2026-11-18 05:44:31 UTC",
+  "vod_count": 63,
   "sites": [
     {
       "key": "ms4nii",
@@ -389,6 +389,16 @@
       "name": "*JAV名优馆",
       "type": 0,
       "api": "http://mygzycj.com/api.php?ac=videolist",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "*久草资源",
+      "name": "*久草资源",
+      "type": 0,
+      "api": "http://jcspcj8.com/api?ac=videolist",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
