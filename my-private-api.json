@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-11-18 05:44:31 UTC",
-  "vod_count": 63,
+  "update_time": "2026-11-19 05:43:45 UTC",
+  "vod_count": 61,
   "sites": [
     {
       "key": "ms4nii",
@@ -395,16 +395,6 @@
       "playerType": 1
     },
     {
-      "key": "*久草资源",
-      "name": "*久草资源",
-      "type": 0,
-      "api": "http://jcspcj8.com/api?ac=videolist",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "*字幕网",
       "name": "*字幕网",
       "type": 0,
@@ -631,16 +621,6 @@
       "name": "成人29",
       "type": 0,
       "api": "https://www.msnii.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "kkzy.me",
-      "name": "成人30",
-      "type": 1,
-      "api": "https://kkzy.me/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
