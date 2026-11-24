@@ -1,7 +1,7 @@
 {
   "name": "亚洲性学点播接口（精选可靠）",
-  "update_time": "2026-11-23 05:31:09 UTC",
-  "vod_count": 62,
+  "update_time": "2026-11-24 08:09:59 UTC",
+  "vod_count": 59,
   "sites": [
     {
       "key": "ms4nii",
@@ -235,16 +235,6 @@
       "playerType": 1
     },
     {
-      "key": "*水蜜桃",
-      "name": "*水蜜桃",
-      "type": 1,
-      "api": "http://51smt4.xyz/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "*乐播",
       "name": "*乐播",
       "type": 0,
@@ -395,16 +385,6 @@
       "playerType": 1
     },
     {
-      "key": "*久草资源",
-      "name": "*久草资源",
-      "type": 0,
-      "api": "http://jcspcj8.com/api?ac=videolist",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "*字幕网",
       "name": "*字幕网",
       "type": 0,
@@ -532,16 +512,6 @@
       "categories": [
         "伦理片"
       ],
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "51smt4.xyz",
-      "name": "成人01",
-      "type": 1,
-      "api": "http://51smt4.xyz/api.php/provide/vod/",
-      "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 1
